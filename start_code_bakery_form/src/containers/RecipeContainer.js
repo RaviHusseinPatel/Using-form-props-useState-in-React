@@ -41,7 +41,7 @@ const RecipeContainer = () => {
         <>
         <h2>Cake Directory</h2>
         <NewRecipe onSubmit = {addNewRecipe}/>
-        <RecipeList recipes= {recipes}/>
+        <RecipeList cakes= {recipes}/>
         </>
     )
 
